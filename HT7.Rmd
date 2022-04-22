@@ -1,0 +1,42 @@
+---
+title: "HT6-RegresionLogistica"
+author: "AndresQuinto 18288, MirkaNicolle 18139, OscarDeLeon 19298"
+date: "26/4/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#Librerias que vamos a utilizar para la HT7
+library(dplyr)
+library(tidyr)
+library(rpart)
+library(caret)
+library(tree)
+library(rpart.plot)
+library(randomForest)
+library(dplyr)
+library(tidyr)
+library(cluster)
+library(e1071)
+library(mclust)
+library(fpc)
+library(NbClust)
+library(factoextra)
+library(cluster)
+library(e1071)
+library(mclust)
+library(fpc)
+library(NbClust)
+library(factoextra)
+library(rpart)
+library(corrplot)
+library(dummies)
+library(PerformanceAnalytics)
+library(tictoc)
+```
+
+
