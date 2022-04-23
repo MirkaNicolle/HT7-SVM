@@ -78,3 +78,18 @@ scatter.smooth(train$MoSold, train$SalePrice)
 scatter.smooth(train$OverallQual, train$SalePrice)
 ```
 
+Explore los datos y explique las transformaciones que debe hacerle para generar un modelo de máquinas vectoriales de soporte.
+
+Use como variable respuesta la variable categórica que especifica si la casa es barata, media o cara
+
+Genere varios (más de 2) modelos de SVM con diferentes kernels y distintos valores en los parámetros c, gamma y d (en caso de que utilice el polinomial).
+
+Use los modelos para predecir el valor de la variable respuesta
+
+Haga las matrices de confusión respectivas
+
+Compare  los  resultados  obtenidos  con  los  diferentes  modelos  que  hizo  en  cuanto  a efectividad,  tiempo  de  procesamiento  y  equivocaciones  (donde  el  algoritmo se  equivocó más, donde se equivocó menos y la importancia que tienen los errores)
+
+Compare  la  eficiencia  del  mejor  modelo  de  SVM  con  los  resultados  obtenidos  en  los algoritmos de las hojas de trabajo anteriores que usen la misma variable respuesta (árbol de decisión y random forest, naive bayes). ¿Cuál es mejor para predecir? ¿Cuál se demoró más en procesar?
+
+Genere un informe de los resultados y las explicaciones
